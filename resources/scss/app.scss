@@ -183,3 +183,53 @@ footer {
         background-color: #212121;
     }
 }
+
+
+
+.jumbotron {
+    height: 350px;
+    background-image: url('../images/jumbotron.jpg');
+    background-size: cover;
+
+    h3 {
+        background-color: $tertiary-color;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        transform: translateY(330px);
+    }
+}
+
+
+.links-bottom {
+    height: 120px;
+    background-color: $tertiary-color;
+    @include centerFlex;
+
+    ul {
+        @include evenlyFlex;
+
+        li {
+            @include evenlyFlex;
+            list-style: none;
+
+            img {
+                object-fit: cover;
+                width: 30px;
+                margin-right: 10px
+            }
+
+            .active {
+                filter: invert(100%);
+            }
+
+            a {
+                text-decoration: none;
+                color: $primary-color;
+                font-size: 0.6rem;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
