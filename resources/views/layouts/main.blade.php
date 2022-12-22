@@ -14,9 +14,8 @@
 
     @include('partials.jumbo')
 
-    @yield('content');
+    @yield('content')
 
-    @include('partials.cards')
 
      @include('partials.links')
 

@@ -2,7 +2,7 @@
 
 @section('content')
     <main>
-        characters
+      characters
     </main>
 @endsection
 
