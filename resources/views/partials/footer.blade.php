@@ -48,7 +48,7 @@
         </div>
 
         <div class="right">
-          <img src="/dc-logo-bg.png" alt="logo-footer" />
+          <img src="{{Vite::asset('resources/images/dc-logo-bg.png')}}" alt="logo-footer" />
         </div>
       </div>
     </div>
@@ -60,11 +60,11 @@
         </div>
         <div class="left">
           <p>Follow Us</p>
-          <img src="../assets/img/footer-facebook.png" alt="facebook" />
-          <img src="../assets/img/footer-twitter.png" alt="twitter" />
-          <img src="../assets/img/footer-youtube.png" alt="youtube" />
-          <img src="../assets/img/footer-pinterest.png" alt="pinterest" />
-          <img src="../assets/img/footer-periscope.png" alt="periscope" />
+          <img src="{{Vite::asset('resources/images/footer-facebook.png')}}"/>
+          <img src="{{Vite::asset('resources/images/footer-pinterest.png')}}" />
+          <img src="{{Vite::asset('resources/images/footer-twitter.png')}}" />
+          <img src="{{Vite::asset('resources/images/footer-youtube.png')}}" />
+          <img src="{{Vite::asset('resources/images/footer-periscope.png')}}" />
         </div>
       </div>
     </div>
