@@ -16,6 +16,8 @@
 
     @yield('content');
 
+    @include('partials.cards')
+
      @include('partials.links')
 
      @include('partials.footer')
