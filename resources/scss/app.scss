@@ -1,1 +1,185 @@
-@import '~bootstrap/scss/bootstrap'
+
+@use './partials/variables' as *;
+@use './partials/mixin' as *;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 75%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+    color: $primary-color;
+}
+
+a {
+    color: $quaternary-color;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.up {
+    height: 30px;
+    background-color: #212121;
+}
+
+header {
+    @include aroundFlex;
+    height: 85px;
+    background-color: $primary-color;
+
+    img {
+        width: 50px;
+        cursor: pointer;
+    }
+
+    ul {
+        list-style: none;
+        @include aroundFlex;
+        width: 600px;
+    }
+
+    li {
+        margin-left: 20px;
+        text-transform: uppercase;
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        $secondary-color: #303030;
+        padding-bottom: 34px;
+    }
+
+    // .active {
+    //   color: $tertiary-color;
+    //   border-bottom: 3px solid $tertiary-color;
+    // }
+
+    a:hover {
+        color: $tertiary-color;
+        border-bottom: 3px solid $tertiary-color;
+    }
+}
+
+
+footer {
+    .top {
+        height: 275px;
+        background-image: url("../assets/img/footer-bg.jpg");
+        overflow: hidden;
+
+        .tp {
+            height: 100%;
+            @include betweenFlex;
+
+            .left {
+                margin-top: 50px;
+                height: 100%;
+                @include startFlex;
+
+                .lft,
+                .ctr {
+                    margin-right: 20px;
+
+                    .shop {
+                        margin-top: 20px;
+                    }
+                }
+
+                h3 {
+                    text-transform: uppercase;
+                    font-size: 0.9rem;
+                }
+
+                ul {
+                    li {
+                        list-style: none;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        font-size: 0.6rem;
+                    }
+
+                    a:hover {
+                        color: $primary-color;
+                    }
+                }
+            }
+
+            .right {
+                img {
+                    transform: translateX(5%);
+                    width: 400px;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        height: 80px;
+        background-color: $secondary-color;
+
+        .left {
+            img {
+                cursor: pointer;
+            }
+        }
+
+        .icons {
+            height: 100%;
+            @include betweenFlex;
+
+            .right {
+                button {
+                    width: 125px;
+                    background-color: $secondary-color;
+                    text-transform: uppercase;
+                    color: $primary-color;
+                    border: 2px solid $tertiary-color;
+                    padding: 10px;
+                    cursor: pointer;
+                }
+            }
+
+            .left {
+                @include centerFlex;
+
+                p {
+                    margin-right: 15px;
+                    text-transform: uppercase;
+                    color: $tertiary-color;
+                }
+
+                img {
+                    margin-right: 15px;
+                    width: 25px;
+                }
+            }
+        }
+    }
+
+    .down {
+        height: 30px;
+        background-color: #212121;
+    }
+}

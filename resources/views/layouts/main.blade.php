@@ -7,12 +7,12 @@
 
     @vite('resources/js/app.js')
 
-    <title>Laravel Vite Comics | @yeld('title')</title>
+    <title>Laravel Vite Comics | @yield('title')</title>
 </head>
 <body>
     @include('partials.header')
 
-    @yeld('content')
+    @yield('content');
 
      @include('partials.footer')
 
