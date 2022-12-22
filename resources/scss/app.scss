@@ -199,6 +199,16 @@ footer {
         padding: 10px 20px;
         transform: translateY(330px);
     }
+
+    .line-blue {
+        height: 60px;
+        background-color: $tertiary-color;
+    }
+
+        img.action {
+            padding-top: 40px;
+            transform: translateY(40px);
+        }
 }
 
 
@@ -287,3 +297,15 @@ footer {
     }
 
 }
+
+
+img.shop {
+    width: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
