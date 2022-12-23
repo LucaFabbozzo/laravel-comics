@@ -31,6 +31,18 @@ Route::get('/comics', function () {
     return view('comics', compact('cards_books'));
 })->name('comics');
 
+
+Route::get('/comics-detail/{id}', function($id) {
+    $comics_get = array_filter(config('db.cards_books'), fn ($card) => $card['id'] == $id);
+    //dd($comics_get);
+    $comics_key = array_key_first($comics_get);
+    $comic = $comics_get[$comics_key];
+    //dd($comic);
+    return view('comics_detail', compact('comic'));
+})->name('comics_detail');
+
+
+
 Route::get('/fans', function () {
     return view('fans');
 })->name('fans');

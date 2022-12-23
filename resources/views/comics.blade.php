@@ -6,7 +6,7 @@
     <div class="container cards">
         @foreach ($cards_books as $card)
          <div class="card">
-            <a href="{{route('shop')}}"><img src="{{$card["thumb"]}}" alt="{{$card["series"]}}"></a>
+            <a href="{{route('comics_detail', ["id" => $card["id"]])}}"><img src="{{$card["thumb"]}}" alt="{{$card["series"]}}"></a>
             <h4>{{$card["series"]}}</h4>
         </div>
         @endforeach

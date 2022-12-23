@@ -298,12 +298,34 @@ footer {
 
 }
 
-
-img.shop {
-    width: 400px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+.detail-box {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    h2 {
+        font-size: 1.3rem;
+        color: #191919;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+    p {
+        color: #191919;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+    img {
+        width: 280px;
+        padding-bottom: 15px;
+    }
 }
+
+        .house i {
+            color: #3f3f3f;
+            font-size: 30px;
+            padding-top: 0;
+            padding-bottom: 60px;
+            padding-left: 150px;
+        }
 
 
 
