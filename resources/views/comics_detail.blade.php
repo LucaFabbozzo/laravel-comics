@@ -6,7 +6,7 @@
             <div class="detail-box">
                 <h2>{{$comic["series"]}}</h2>
                 <p>{{$comic["type"]}}</p>
-                <a href="{{ route('home')}}"><img src="{{$comic["thumb"]}}" alt="{{$comic["series"]}}"></a>
+                <a href="{{ route('comics')}}"><img src="{{$comic["thumb"]}}" alt="{{$comic["series"]}}"></a>
                 <h4>Price: {{$comic["price"]}}</h4>
             </div>
         </div>
