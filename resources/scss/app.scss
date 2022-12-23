@@ -73,6 +73,11 @@ header {
     //   color: $tertiary-color;
     //   border-bottom: 3px solid $tertiary-color;
     // }
+    .active {
+        color: $tertiary-color;
+        border-bottom: 3px solid $tertiary-color;
+    }
+
 
     .line:hover {
         color: $tertiary-color;
