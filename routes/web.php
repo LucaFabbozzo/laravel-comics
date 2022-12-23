@@ -14,7 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $cards_books = config('db.cards_books');
+    return view('home', compact('cards_books'));
 })->name('home');
 
 Route::get('/characters', function () {
@@ -26,7 +27,8 @@ Route::get('/collectibles', function () {
 })->name('collectibles');
 
 Route::get('/comics', function () {
-    return view('comics');
+    $cards_books = config('db.cards_books');
+    return view('comics', compact('cards_books'));
 })->name('comics');
 
 Route::get('/fans', function () {
