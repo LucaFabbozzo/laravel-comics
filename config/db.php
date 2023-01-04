@@ -139,6 +139,51 @@ return [
   ],
 ],
 
+
+
+    "main_menu" => [
+        [
+            "route_name" => 'characters',
+            "text" => 'Characters'
+        ],
+        [
+            "route_name" => 'comics',
+            "text" => 'Comics'
+        ],
+        [
+            "route_name" => 'movies',
+            "text" => 'Movies'
+        ],
+        [
+            "route_name" => 'tv',
+            "text" => 'Tv'
+        ],
+        [
+            "route_name" => 'games',
+            "text" => 'Games'
+        ],
+        [
+            "route_name" => 'collectibles',
+            "text" => 'Collectibles'
+        ],
+        [
+            "route_name" => 'videos',
+            "text" => 'Videos'
+        ],
+        [
+            "route_name" => 'fans',
+            "text" => 'Fans'
+        ],
+        [
+            "route_name" => 'news',
+            "text" => 'News'
+        ],
+        [
+            "route_name" => 'shop',
+            "text" => 'Shop'
+        ],
+    ],
+
 ];
 
 
