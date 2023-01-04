@@ -1,0 +1,24 @@
+.jumbotron {
+    height: 350px;
+    background-image: url('../images/jumbotron.jpg');
+    background-size: cover;
+
+    h3 {
+        background-color: $tertiary-color;
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        transform: translateY(330px);
+    }
+
+    .line-blue {
+        height: 60px;
+        background-color: $tertiary-color;
+    }
+
+    img.action {
+        padding-top: 40px;
+        transform: translateY(40px);
+    }
+}
