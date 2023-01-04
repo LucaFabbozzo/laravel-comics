@@ -1,27 +1,19 @@
+@php
+    $links = config('db.links_menu');
+@endphp
+
+
+
 <section>
     <div class="links-bottom">
       <div class="container menu">
         <ul>
-          <li>
-            <img src="{{Vite::asset('resources/images/buy-comics-digital-comics.png')}}" alt="digital-comics">
-            <a href="#">Digital Comics</a>
+        @foreach ($links as $buy)
+            <li>
+            <img src="{{Vite::asset($buy['img'])}}" alt="{{$buy['text']}}">
+            <a href="#">{{$buy['text']}}</a>
           </li>
-           <li>
-            <img src="{{Vite::asset('resources/images/buy-comics-merchandise.png')}}" alt="digital-comics">
-            <a href="#">Dc Merchandise</a>
-          </li>
-          <li>
-            <img src="{{Vite::asset('resources/images/buy-comics-subscriptions.png')}}" alt="digital-comics">
-            <a href="#">Subscription</a>
-          </li>
-          <li>
-            <img src="{{Vite::asset('resources/images/buy-comics-shop-locator.png')}}" alt="digital-comics">
-            <a href="#">Comic Shop Locator</a>
-          </li>
-          <li>
-            <img src="{{Vite::asset('resources/images/buy-dc-power-visa.svg')}}" alt="digital-comics">
-            <a href="#">Dc Power Visa</a>
-          </li>
+        @endforeach
         </ul>
       </div>
     </div>

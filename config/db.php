@@ -184,6 +184,30 @@ return [
         ],
     ],
 
+
+    "links_menu" => [
+        [
+            "img" => 'resources/images/buy-comics-digital-comics.png',
+            "text" => 'Digital Comics'
+        ],
+        [
+            "img" => 'resources/images/buy-comics-merchandise.png',
+            "text" => 'Dc Merchandise'
+        ],
+        [
+            "img" => 'resources/images/buy-comics-subscriptions.png',
+            "text" => 'Subscription'
+        ],
+        [
+            "img" => 'resources/images/buy-comics-shop-locator.png',
+            "text" => 'Comic Shop Locator'
+        ],
+        [
+            "img" => 'resources/images/buy-dc-power-visa.svg',
+            "text" => 'Dc Power Visa'
+        ],
+    ],
+
 ];
 
 
