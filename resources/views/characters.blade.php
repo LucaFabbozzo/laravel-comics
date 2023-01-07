@@ -2,7 +2,16 @@
 
 @section('content')
     <main>
-      characters
+    <div class="top-cards">
+        <div class="container cards">
+            @foreach ($characters as $character)
+            <div class="card-char">
+                <a href=""><img src="{{$character['img']}}" alt="{{$character['text']}}"></a>
+                <h4 class="name-char">{{$character["text"]}}</h4>
+            </div>
+            @endforeach
+        </div>
+    </div>
     </main>
 @endsection
 

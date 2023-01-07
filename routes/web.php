@@ -19,7 +19,8 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/characters', function () {
-    return view('characters');
+    $characters = config('db.characters_list');
+    return view('characters', compact('characters'));
 })->name('characters');
 
 Route::get('/collectibles', function () {

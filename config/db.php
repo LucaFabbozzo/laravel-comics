@@ -208,6 +208,38 @@ return [
         ],
     ],
 
+    "characters_list" => [
+        [
+            "img" => "https://www.dc.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Superman_20190116_5c3fc71f524f38.28405711.jpg",
+            "text" => "Superman"
+        ],
+        [
+            "img" => "https://www.dc.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Batman_20190116_5c3fc4b40faf04.59002472.jpg",
+            "text" => "Batman"
+        ],
+        [
+            "img" => "https://www.dc.com/sites/default/files/styles/whos_who/public/Char_WhosWho_WonderWoman_20190116_5c3fc6aa51d124.25659603.jpg",
+            "text" => "Wonder Woman"
+        ],
+        [
+            "img" => "https://www.dc.com/sites/default/files/styles/whos_who/public/Char_WhosWho_GreenLantern%2920200721_5f173adcedb982.94529743.jpg",
+            "text" => "Green Lantern"
+        ],
+        [
+            "img" => "https://www.dc.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Flash_20190116_5c3fcadbc6a963.74676553.jpg",
+            "text" => "The Flash"
+        ],
+        [
+            "img" => "https://www.dc.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Aquaman_5c411a95e710b9.62155274.jpg",
+            "text" => "Acquaman"
+        ],
+        [
+            "img" => "https://www.dc.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Cyborg_20190116_5c3fcd9048a1a2.67778180.jpg",
+            "text" => "Cyborg"
+        ],
+
+    ]
+
 ];
 
 
