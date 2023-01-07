@@ -23,6 +23,14 @@ Route::get('/characters', function () {
     return view('characters', compact('characters'));
 })->name('characters');
 
+Route::get('/characters-detail/{id}', function($id) {
+    $characters_get = array_filter(config('db.characters_list'), fn($character) => $character['id'] == $id);
+    $characters_key = array_key_first($characters_get);
+    $character = $characters_get[$characters_key];
+
+    return view('characters_detail', compact('character'));
+})->name('characters_detail');
+
 Route::get('/collectibles', function () {
     return view('collectibles');
 })->name('collectibles');
