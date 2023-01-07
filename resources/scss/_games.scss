@@ -1,0 +1,27 @@
+.top-cards {
+    h4 {
+            color: white;
+            text-transform: capitalize;
+            margin-top: 8px;
+            font-size: 0.8rem;
+        }
+
+        p {
+            color: #55BA59;
+            text-transform: uppercase;
+        }
+
+        .cards-games {
+            display: flex;
+        }
+
+
+        .card-games {
+            margin: 10px;
+            width: 150px;
+            height: 212px;
+            cursor: pointer;
+        }
+}
+
+

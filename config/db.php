@@ -245,6 +245,27 @@ return [
             "text" => "Cyborg"
         ],
 
+    ],
+
+    "games_list" => [
+        [
+            "id" => 123,
+            "img" => "https://www.dc.com/sites/default/files/styles/covers192x291/public/video-game-covers/2022/10/Games-Thumb_Multiversus_S1_633e3c653b4c23.38051567.jpg",
+            "text" => "Multiversus (2022)",
+            "is_available" => true
+        ],
+        [
+            "id" => 201,
+            "img" => "https://www.dc.com/sites/default/files/styles/covers192x291/public/video-game-covers/2020/09/DC_Games_INJ2_Website_Asset_VERTICAL01_5f5c41919373c0.33292143.jpg",
+            "text" => "Injustice 2(2017)",
+            "is_available" => false
+        ],
+        [
+            "id" => 300,
+            "img" => "https://www.dc.com/sites/default/files/styles/covers192x291/public/video-game-covers/2016/11/Box-Art-POST-LAUNCH_581a86f1e175a8.06009888.jpg",
+            "text" => "Dc Legend (2016)",
+            "is_available" => true
+        ]
     ]
 
 ];

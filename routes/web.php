@@ -64,7 +64,8 @@ Route::get('/fans', function () {
 })->name('fans');
 
 Route::get('/games', function () {
-    return view('games');
+    $games_list = config('db.games_list');
+    return view('games', compact('games_list'));
 })->name('games');
 
 Route::get('/movies', function () {
